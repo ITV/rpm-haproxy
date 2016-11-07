@@ -22,8 +22,8 @@ Install rpmdevtools from the [EPEL][epel] repository:
 ## Get Necessary System-specific Configs
 
     git clone git@github.com:ITV/rpm-haproxy.git
-    cp haproxy-centos/SOURCES/* rpmbuild/SOURCES/
-    cp haproxy-centos/SPECS/* rpmbuild/SPECS/
+    cp rpm-haproxy/SOURCES/* rpmbuild/SOURCES/
+    cp rpm-haproxy/SPECS/* rpmbuild/SPECS/
 
 ## Build the RPM
 
